@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <Button
+        android:id="@+id/yogaTrainersBtnOnUserAc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Oktatóink" />
+
+    <Button
+        android:id="@+id/yogaTypesBtnOnUserAc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Óratípusok" />
+
+    <Button
+        android:id="@+id/trainingsBtnOnUserAc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Órarend" />
+
+    <Button
+        android:id="@+id/cancelTrainingActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Óra lemondása" />
+
+    <Button
+        android:id="@+id/purchaseYogapassesActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Bérlet vásárlása" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        style="@style/MaterialAlertDialog.Material3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0BB8ED"
+        android:text="Kijelentkezés"
+        android:textColor="@color/black"
+        app:icon="@android:drawable/ic_lock_power_off" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/joga_background" />
+</LinearLayout>

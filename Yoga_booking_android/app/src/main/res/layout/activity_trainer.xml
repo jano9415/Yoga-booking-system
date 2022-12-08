@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrainerActivity">
+
+    <Button
+        android:id="@+id/addNewTrainingActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Edzés hozzáadása" />
+
+    <Button
+        android:id="@+id/addNewYogatypeActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Új típus hozzáadása" />
+
+    <Button
+        android:id="@+id/logoutBtnOnTrainerAc"
+        style="@style/MaterialAlertDialog.Material3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0BB8ED"
+        android:text="Kijelentkezés"
+        android:textColor="@color/black"
+        app:icon="@android:drawable/ic_lock_power_off" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/joga_background" />
+
+</LinearLayout>

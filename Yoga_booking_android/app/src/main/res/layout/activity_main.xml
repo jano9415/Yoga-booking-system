@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0BB8ED"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Bejelentkezés" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0BB8ED"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Regisztráció" />
+
+    <Button
+        android:id="@+id/yogaTrainersBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Oktatóink" />
+
+    <Button
+        android:id="@+id/yogaTypesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Óratípusok" />
+
+    <Button
+        android:id="@+id/trainingsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        style="@style/MaterialAlertDialog.Material3"
+        android:text="Órarend" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/joga_background" />
+</LinearLayout>
